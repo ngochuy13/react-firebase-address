@@ -1,0 +1,99 @@
+{
+  "data": [{
+      "id": 1,
+      "title": "category 1",
+      "url": "category-1",
+      "products": [{
+          "id": 1,
+          "name": "product 1",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, omnis, ducimus praesentium voluptas laudantium officia. Assumenda magni quo itaque error fugiat. Ratione nam, quaerat possimus earum laudantium? Consequatur, dicta, harum.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-1"
+        },
+        {
+          "id": 2,
+          "name": "product 2",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero illo obcaecati odio eveniet eius, quod fugit consequuntur omnis nulla incidunt ipsam aperiam dolore totam at iure, recusandae perspiciatis illum possimus.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-2"
+        },
+        {
+          "id": 3,
+          "name": "product 3",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, dolor. Quas temporibus nam asperiores ratione dolor, similique odio impedit cumque eius dolorum, quis tenetur voluptatibus eos modi nisi eveniet. Minima.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-3"
+        },
+        {
+          "id": 4,
+          "name": "product 4",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, voluptatum hic? Quisquam, asperiores commodi amet odio nulla ut inventore. Mollitia, rem. Beatae, reiciendis architecto sed maxime in a facere incidunt.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-4"
+        },
+        {
+          "id": 5,
+          "name": "product 5",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eveniet provident quam totam voluptas, facilis dolorum ut ipsum at omnis sed eaque dolore, et deleniti quisquam voluptatem dolor. Minus, quidem?",
+          "image": "/assets/images/dummy.png",
+          "url": "product-5"
+        },
+        {
+          "id": 6,
+          "name": "product 6",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate id dicta distinctio nulla a ut quae delectus, voluptatum officiis et, ratione tenetur ipsum incidunt ducimus optio? Eius, obcaecati esse.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-6"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "category 2",
+      "url": "category-2",
+      "products": [{
+          "id": 11,
+          "name": "product 11",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quia perspiciatis tenetur suscipit repellendus fuga odit illum quos, laborum, soluta, eligendi ad iste voluptas cupiditate iusto officia animi cum sit.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-11"
+        },
+        {
+          "id": 22,
+          "name": "product 22",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eligendi ullam, itaque rerum quis sapiente a molestias, voluptatum unde dolor quibusdam deserunt nam delectus vero tempore. Odio, rerum. Similique, atque.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-22"
+        },
+        {
+          "id": 33,
+          "name": "product 33",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, dolores voluptas, quam minima adipisci excepturi architecto enim est ipsa, nihil maiores? Esse magni quo doloribus consequatur, sed et eligendi, voluptas!",
+          "image": "/assets/images/dummy.png",
+          "url": "product-33"
+        },
+        {
+          "id": 44,
+          "name": "product 44",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil reiciendis odit recusandae, a cumque libero minus officiis repellat quod voluptatem, laudantium eveniet labore. Animi ex unde assumenda rerum nemo aut?",
+          "image": "/assets/images/dummy.png",
+          "url": "product-44"
+        },
+        {
+          "id": 55,
+          "name": "product 55",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, placeat, sunt. Fugiat cupiditate itaque velit sapiente provident, est necessitatibus quasi quia, laudantium, quam pariatur quibusdam at illum repellendus assumenda iure.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-55"
+        },
+        {
+          "id": 66,
+          "name": "product 66",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste provident necessitatibus facere sit fugit, hic alias sapiente. Eaque praesentium vitae quod, ab maxime mollitia animi nam, consectetur quas. Eos, exercitationem.",
+          "image": "/assets/images/dummy.png",
+          "url": "product-66"
+        }
+      ]
+    }
+  ]
+}

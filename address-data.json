@@ -1,0 +1,18 @@
+{
+    "address": {
+        "id_1": {
+            "street": "72 Le Thanh Ton",
+            "ward": "Ben Nghe",
+            "district": "1",
+            "city": "Ho Chi Minh",
+            "country": "Vietnam"
+        },
+        "id_2": {
+            "street": "138 Hai Ba Trung",
+            "ward": "Da Kao",
+            "district": "1",
+            "city": "Ho Chi Minh",
+            "country": "Vietnam"
+        }
+      }
+}

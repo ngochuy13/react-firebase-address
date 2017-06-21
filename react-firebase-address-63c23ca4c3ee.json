@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "react-firebase-address",
+  "private_key_id": "63c23ca4c3ee55d8b50eae6fd11b8e3a87580103",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnAWh+JBKVeL9b\njfUY8LKQI+4RxGyQg+yhq4i6deT6jtECd6O3f8mtm+CrNZxWGp2AS2V8FLcyvLFY\n6itvewINKkU/yVC1YRUyJ5GmTfh8Datv7ESYxO3+keyj8mHSGX9vbTR1lYXpVPbU\nzuIb01MZ4vZ3WjHZLY5R1ZnVkZw6ek+Xzc5yxc/kp0267NjZWkehKWsRg6QayhYl\nAZ5jmhXlbPYbLGDYoTm9mwP7X8gwlAMb4BWwiDye2uxWjr7N+1FRrfAXgTy2k7IB\nN2r1xAR33zMW2M49FxMLIj2NPLJB75tnnPZ63D6B+jDD7VwEDbT6rQCloXC0lPge\n+uOAr4KtAgMBAAECggEAAuAYDwViKCoemJg4BBcA01ELDQP9HuQ4CsZdSniQzibY\nEDhEM+OCoWur0YD/hYkWUjeFvfhwPwnueZNABadY44NSEv9wVWN9be9FkCiLJZqM\nd0WUqjnIUiCmJmJKrw0vJw3MGoRZn1eOD6szHQyffajKWqRwXF36nDpzzLBzS2z5\nSZE2XhmXX3T9Vmzv6L9R76mU+HryrHwc8HpVa1PR1RHhA4oLBCNpOxWwhW3R0tAL\nF7JQPp+Ppg46cs4qn2sWWiv7IuT20rQmVCNJPQ3kiPFThMzU0RRRz7FC0Q0Cgkl0\n8ujyqT20zMad9EHx8eYzpcqSDFe8DU/BQeLMNkGuAQKBgQDQxtOBPPaYDwAX0FT5\nWqfWrNSHHmNmbiQqzA9dghjOjKKKQAHM91Uq+NJJq4bhL9Vyk7+hfiwPBE1SYjSK\ni7zu/KWzOARwP0YgOt44Oa2p/F0zC5w7YXQ344nTYl0MeRc+hkkKFSxrJqSFeHQM\ncOrVhGuijlVLVr7l2WGJ/2ZtDQKBgQDMx9SdD95PxPz/BWKK9kAlcxRla62Xe0IE\niod6v+TCUZic88zv3lqY4uTzMKA6mQej+nvgzYFys94XHwff1LUH9KMK4pmIJfFY\nyLRhGv7PZx7P4EG8AT8Ixl9VGaubYk3vUYLXByPajHjwBpvKnmfSl+hNlwRH3K8L\nDVIrpJREIQKBgHwF4RdhM8xY/OEorZIDvLjWqtopvzrWKz4RQv91jW8GNHiUVX2B\nYGLKtYF2GAYl+FK8WpaA8YNqNtS96iBzqqT+CSFSIbDcpbf3wJL+EKBufp8YQpMz\n7WpWDUY5pLUIKjrGYxVORrjQl+OCDs5lNdvpcld63kiHG5hHbp4fzqTxAoGBAJFc\ntF79Wai0Q4bfkrDj1mr/ApZv1hy2gQlqMHuA5ejONRAMvAf1hcgLH8xFUyflYxgS\ngYb1OhNq/JbbDyLjAdJw5J+gdK3BiU2lwu0/VWtyXtve66qCE/WtoxRskXVOVdYw\nvTjYN6o2ls6DUmmFAlvqOxuAvKgqThMBVLfoLtshAoGANTSX6vn1bfW9eKzDYFL/\n6PZ24ehX4BDCUsAzondBLZQOEny5ZIA2w1v2nz1UnUuONdx1OedDeI7Q3pLmNVpH\no+UV6/EcZRb74Yb4K3VICU+HwihI00srt7cqA/KjCo9t5vxz+oGMrgYM0VRHAKMy\nNK6yeFvrik0W4rLLBoZ73Vg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "react-firebase-address@appspot.gserviceaccount.com",
+  "client_id": "100583497973863470514",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/react-firebase-address%40appspot.gserviceaccount.com"
+}

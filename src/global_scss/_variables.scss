@@ -1,0 +1,90 @@
+$primary: #129bf1;
+$secondary: #f2efe9;
+$font-color: #5e5e5e;
+$border-header: #6cc1f6;
+$white: #ffffff;
+$white-two: #f4f4f4;
+$black: #000000;
+$black2: #1a1b25;
+$black3: #444444;
+$blue: #4A90E2;
+$blue2: #129bf1;
+$blue3: #4db4f5;
+$blue4: #29a5f2;
+$blue5: #43a3c2;
+$gray: #cccccc;
+$green: #45cd75;
+$span-text: #686868;
+$border-task: #ececec;
+$background-task: #d6edfb;
+$grey: #dbe2e8;
+$font: 'Helvetica Neue', 'Roboto', sans-serif;
+$grid-breakpoints: ( xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px) !default; // Breakpoints
+
+$bp-phablet-up: 'min-width: #{map-get($grid-breakpoints, sm)}' !default;
+$bp-tablet-up: 'min-width: #{map-get($grid-breakpoints, md)}' !default;
+$bp-desktop-up: 'min-width: #{map-get($grid-breakpoints, lg)}' !default;
+$bp-desktophd-up: 'min-width: #{map-get($grid-breakpoints, xl)}' !default; // Grid containers
+
+.no-padd {
+    padding-right: 0;
+    padding-left: 0;
+}
+*:focus {
+    outline: none;
+}
+.upcase {
+    text-transform: uppercase;
+}
+.font-normal {
+    font-weight: normal;
+}
+.font-bold {
+    font-weight: bold;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.get-a-quote {
+    background: $primary;
+    color: $white;
+    height: 50px;
+    line-height: 50px;
+    width: 165px;
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    &:hover {
+        color: $primary;
+        background: $white;
+        border: 1px solid $primary;
+    }
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.text-center {
+    text-align: center;
+}
+.div-center {
+    margin: 0 auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
