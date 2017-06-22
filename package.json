@@ -4,14 +4,8 @@
   "description": "Isomorphic/universal boilerplate with react, redux, webpack and express",
   "main": "src/index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development babel-node ./server.js",
-    "build": "rimraf dist && webpack --config ./webpack.config.production.js",
-    "serve": "cross-env NODE_ENV=production babel-node ./server.js",
-    "build-staging": "rimraf dist && webpack --config ./webpack.config.staging.js",
-    "serve-staging": "cross-env NODE_ENV=staging babel-node ./server.js",
-    "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint --cache ./src",
-    "lint:css": "stylelint src/**/*.scss --syntax scss"
+    "start": "cross-env NODE_ENV=develop babel-node ./server.js",
+    "build": "rimraf dist && webpack --config ./webpack.config.dev.js"
   },
   "author": "Huy Pham <phamngochuy.1989@gmail.com>",
   "license": "",
@@ -61,10 +55,7 @@
   "dependencies": {
     "firebase-admin": "^5.0.0",
     "geocoder": "^0.2.3",
-    "intl": "^1.2.5",
-    "intl-locales-supported": "^1.0.0",
     "json-loader": "^0.5.4",
-    "localStorage": "^1.0.3",
     "moment": "^2.18.1",
     "mustache": "^2.3.0",
     "numeral": "^2.0.6",
@@ -83,8 +74,6 @@
     "react-slick": "^0.14.11",
     "redux": "^3.5.2",
     "semantic-ui-css": "^2.2.10",
-    "semantic-ui-react": "^0.68.3",
-    "slick-carousel": "^1.6.0",
-    "smoothscroll-polyfill": "^0.3.4"
+    "semantic-ui-react": "^0.68.3"
   }
 }
