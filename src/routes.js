@@ -7,6 +7,8 @@ import { PageNames } from './constants';
 
 import App from './containers/app';
 import Home from './containers/home';
+import DetailAddress from './containers/detailAddress';
+import CreateAddress from './containers/createAddress';
 import NotFound from './containers/notFound';
 
 let handleChangeUrl = function(state, nextState/*, replace*/) {
@@ -38,6 +40,8 @@ export default function (history, state) {
 	var routing = (
 		<Route>
 			<IndexRoute component={Home} />
+			<Route path={PageNames.ADDRESS+"/:key"} component={DetailAddress} />
+			<Route path={PageNames.ADDRESS+"/create/:type"} component={CreateAddress} />
 			<Route path={PageNames['404']} component={NotFound} />
 
 		</Route>

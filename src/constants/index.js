@@ -30,6 +30,8 @@ const AppFlowActions = keyMirror({
 	ADDRESS_CREATE_COMPLETE: undefined,
 	ADDRESS_CREATE_ERROR: undefined,
 
+	CHANGE_STATUS_ADDRESS: undefined,
+
 	SENDING_REQUEST: undefined,
 
 });

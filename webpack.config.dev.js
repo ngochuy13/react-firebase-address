@@ -43,6 +43,14 @@ module.exports = {
 				test: /\.scss/,
 				loader: 'style!css-loader?url=false!sass!postcss',
 				include: path.resolve(__dirname, 'src')
+			},
+			{
+				test: /\.css/,
+				loader: 'style!css-loader?url=false!postcss'
+			},
+			{
+				test: /\.json$/,
+				loader: 'json-loader',
 			}
 		]
 	},

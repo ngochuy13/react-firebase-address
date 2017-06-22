@@ -26,3 +26,7 @@ export function addressUpdateRequest(data) {
 export function addressCreateRequest(data) {
 	return { type: AppFlowActions.ADDRESS_CREATE_REQUEST, data };
 }
+
+export function changeStatusAddress() {
+	return { type: AppFlowActions.CHANGE_STATUS_ADDRESS };
+}

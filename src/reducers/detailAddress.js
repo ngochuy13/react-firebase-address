@@ -13,6 +13,9 @@ function detailAddress(state = {}, action) {
 				status: 'error',
 				...action.data
 			}
+		case AppFlowActions.CHANGE_STATUS_ADDRESS:
+			return {
+			}
 		default:
 			return state;
 	}

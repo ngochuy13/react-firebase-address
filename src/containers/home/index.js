@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import {each} from 'lodash';
-import {Table} from 'semantic-ui-react';
+import {Table, Button} from 'semantic-ui-react';
+import {PageNames} from '../../constants';
 
 if(process.env.WEBPACK) require('./index.scss');
 
@@ -26,9 +27,9 @@ class Home extends Component {
 			        <td>{item.city}</td>
 			        <td>{item.country}</td>
 			        <td>
-			        	<div onClick={this.detail.bind(self, index)}>
+			        	<Link to={PageNames.ADDRESS+'/'+index}>
 			        	<i className="edit outline big icon"></i>
-			        	</div>
+			        	</Link>
 			        </td>
 			      </tr>
 				);
@@ -37,7 +38,17 @@ class Home extends Component {
 		return (
 			<div className='home'>
 				<div className="content-home">
-					<h1>List Address</h1>
+					<h1>
+						<span>List Address</span>
+						<div className="block-btn">
+							<span>Add address: </span>
+							<Button.Group>
+								<Link className="ui button" to={PageNames.ADDRESS+'/create/1'}>One</Link>
+								<Link className="ui button" to={PageNames.ADDRESS+'/create/2'}>Two</Link>
+								<Link className="ui button" to={PageNames.ADDRESS+'/create/3'}>Three</Link>
+							</Button.Group>
+						</div>
+					</h1>
 					<table className="ui celled padded table">
 					    <thead>
 					    	<tr>
