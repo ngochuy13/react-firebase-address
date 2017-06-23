@@ -72,7 +72,9 @@ class CreateAddress extends Component {
 			ward: this.state.ward || "",
 			district: this.state.district || "",
 			city: this.state.city || "",
-			country: this.state.country || ""
+			country: this.state.country || "",
+			country: this.state.country || "",
+			createType: this.state.createType || 1
 		});
 	}
 	renderFrom = () => {
