@@ -19,9 +19,6 @@ function loadHtml() {
 	if(process.env.NODE_ENV == 'production') {
 		fileName = 'html/index.production.html';
 	}
-	if(process.env.NODE_ENV == 'staging') {
-		fileName = 'html/index.staging.html';
-	}
   return fs.readFileSync(path.resolve(__dirname, fileName)).toString();
 }
 export default (req, res) => {
@@ -37,18 +34,9 @@ export default (req, res) => {
 					Mustache.to_html(loadHtml(), {config: {...appConfig, title: 'HuyPham'}})
 				);
 
-			} else if(process.env.NODE_ENV == 'staging') {
-
-				let assets = require('../dist/webpack-assets.json');
-				let scriptSrcs = `<script type='text/javascript' src='${assets.vendor.js}'></script><script type='text/javascript' src='${assets.client.js}'></script><script type='text/javascript' src='${assets.bundle.js}'></script>`;
-				let styleSrc = `<link rel='stylesheet' href='${assets.bundle.css}'>`;
-
-				res.status(200).send(
-					Mustache.to_html(loadHtml(), {config: {...appConfig, title: 'x-hit.io', scriptSrcs: scriptSrcs, styleSrc: styleSrc, renderToStringHTML: '' }})
-				);
 			} else if(process.env.NODE_ENV == 'production') {
 				let assets = require('../dist/webpack-assets.json');
-				let scriptSrcs = `<script type='text/javascript' src='${assets.vendor.js}'></script><script type='text/javascript' src='${assets.client.js}'></script><script type='text/javascript' src='${assets.bundle.js}'></script>`;
+				let scriptSrcs = `<script type='text/javascript' src='${assets.vendor.js}'></script><script type='text/javascript' src='${assets.bundle.js}'></script>`;
 				let styleSrc = `<link rel='stylesheet' href='${assets.bundle.css}'>`;
 				let renderToStringHTML = renderToString(
 					<Provider store={createStore(reducers)}>

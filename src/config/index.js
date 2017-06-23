@@ -3,7 +3,7 @@
  */
 import config from './config';
 
-const HOST = 'http://localhost:3001';
+const HOST = 'http://localhost:5000';
 
 export default {
 	...config(process.env.HOST || HOST)
