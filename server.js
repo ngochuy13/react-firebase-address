@@ -116,10 +116,10 @@ app.post('/api/v1/address', function(request, response){
 
 app.get('*', middleware);
 
-app.listen(process.env.PORT || 5000, '0.0.0.0', (err) => {
+app.listen(process.env.PORT || 8080, '0.0.0.0', (err) => {
 	if(err) {
 		console.error(err);
 	} else {
-		console.info('Listening at http://localhost:5000');
+		console.info('Listening at http://localhost:8080');
 	}
 });
