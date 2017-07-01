@@ -8,7 +8,7 @@ var AssetsPlugin = require('assets-webpack-plugin');
 var env = {
 	NODE_ENV: 'production',
 	WEBPACK: false,
-	HOST: 'http://localhost:5000'
+	HOST: 'http://localhost:8080'
 };
 
 module.exports = {

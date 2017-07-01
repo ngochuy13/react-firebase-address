@@ -6,7 +6,7 @@ const autoprefixer = require('autoprefixer');
 var env = {
 	NODE_ENV: 'development',
 	WEBPACK: true,
-	HOST: 'http://localhost:5000'
+	HOST: 'http://localhost:8080'
 };
 
 module.exports = {
