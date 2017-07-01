@@ -21,10 +21,6 @@ npm run build
 ```sh
 npm run serve
 ```
-### Deploy the app
-#```sh
-#pm2 deploy deploy.config.js production —force
-#```
 
 ### Article
 About details of this boilerplate, please refer to: [huypham](https://github.com/ngochuy13)
