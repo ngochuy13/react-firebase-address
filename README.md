@@ -2,7 +2,7 @@
 
 ### Install
 ```sh
-git clone git@scm.ezyplanet.com:manh/frontend.thousandhands.com.git
+git clone https://github.com/ngochuy13/react-firebase-address
 cd frontend.thousandhands.com.git
 npm install
 ```
