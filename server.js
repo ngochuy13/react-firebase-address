@@ -4,6 +4,7 @@ import webpack from 'webpack';
 import middleware from './src/middleware';
 import bodyParser from 'body-parser';
 import compression from 'compression';
+require('dotenv').config()
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -116,7 +117,8 @@ app.post('/api/v1/address', function(request, response){
 
 app.get('*', middleware);
 
-app.listen(process.env.PORT || 8080, '0.0.0.0', (err) => {
+app.listen(process.env.PORT || 8080, (err) => {
+	console.info(process.env.PORT);
 	if(err) {
 		console.error(err);
 	} else {
